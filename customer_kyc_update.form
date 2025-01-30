@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "components": [
+        {
+          "label": "Text field",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_0idr2df",
+            "columns": null
+          },
+          "id": "Field_0pun5lv",
+          "key": "textfield_bp6ona"
+        }
+      ],
+      "showOutline": true,
+      "label": "Personnal Information",
+      "type": "group",
+      "layout": {
+        "row": "Row_0vzpnl2",
+        "columns": null
+      },
+      "id": "Field_0dkhrqq"
+    },
+    {
+      "components": [
+        {
+          "label": "I am a US person.",
+          "type": "checkbox",
+          "layout": {
+            "row": "Row_1q0kz6g",
+            "columns": null
+          },
+          "id": "Field_0hmo8mb",
+          "key": "checkbox_p6sfwo"
+        },
+        {
+          "label": "I've held a position of responsibility in government.",
+          "type": "checkbox",
+          "layout": {
+            "row": "Row_0ephxui",
+            "columns": null
+          },
+          "id": "Field_0eijt4c",
+          "key": "checkbox_9x24tn"
+        },
+        {
+          "label": "I am a vulnerable person.",
+          "type": "checkbox",
+          "layout": {
+            "row": "Row_14ml4tp",
+            "columns": null
+          },
+          "id": "Field_1b2ygxl",
+          "key": "checkbox_8nwfdj"
+        },
+        {
+          "label": "Further information",
+          "type": "textarea",
+          "layout": {
+            "row": "Row_11eye2h",
+            "columns": null
+          },
+          "id": "Field_1a89b73",
+          "key": "textarea_sc4nmw"
+        }
+      ],
+      "showOutline": true,
+      "label": "Fiscal Information",
+      "type": "group",
+      "layout": {
+        "row": "Row_1mumxr2",
+        "columns": 16
+      },
+      "id": "Field_0ibyg5p"
+    },
+    {
+      "components": [
+        {
+          "label": "Text field",
+          "type": "textfield",
+          "layout": {
+            "row": "Row_15dvezi",
+            "columns": null
+          },
+          "id": "Field_1lmx0xz",
+          "key": "textfield_sedlxw"
+        },
+        {
+          "subtype": "date",
+          "dateLabel": "Date",
+          "label": "Date time",
+          "type": "datetime",
+          "layout": {
+            "row": "Row_16j4g4p",
+            "columns": null
+          },
+          "id": "Field_04x3akh",
+          "key": "datetime_thcajg"
+        },
+        {
+          "label": "I certify the accuracy of the information provided.",
+          "type": "checkbox",
+          "layout": {
+            "row": "Row_0dw74mh",
+            "columns": null
+          },
+          "id": "Field_10yfkll",
+          "key": "checkbox_qfdfx"
+        }
+      ],
+      "showOutline": true,
+      "label": "Information certification",
+      "type": "group",
+      "layout": {
+        "row": "Row_0xzc42b",
+        "columns": null
+      },
+      "id": "Field_1dnghod"
+    }
+  ],
+  "type": "default",
+  "id": "Form_17l1l5b",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.4.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.19.0"
+  },
+  "schemaVersion": 14
+}
